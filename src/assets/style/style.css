@@ -1,0 +1,363 @@
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 900px;
+
+  background-color: var(--roxo-primario);
+}
+
+.escuta-lilas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.escuta-lilas > img {
+  width: 100%;
+}
+
+header > button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-left: 20px;
+
+  background-color: white;
+  border: 1px solid var(--roxo-primario);
+  border-radius: 30px;
+
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--texto);
+
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+header > button > img {
+  display: flex;
+  width: 20%;
+}
+
+button:hover {
+  background-color: #5a189a;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-end;
+
+  background-image: url("/src/assets/img/Agosto-Mes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home > h2 {
+  margin-right: 120px;
+  margin-top: 50px;
+  width: 30%;
+
+  color: #333333;
+  font-size: 52px;
+}
+
+.home > h2 > span {
+  color: #7b3fbf;
+}
+
+.agosto-lilas {
+  background-color: white;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.agosto-lilas > h1 {
+  color: var(--roxo-primario);
+  font-size: 50px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 190px;
+
+  padding-top: 90px;
+}
+
+.hero > img {
+  width: 35%;
+  border-radius: 20px;
+}
+
+.hero > p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--texto);
+  font-size: 40px;
+  width: 35%;
+}
+
+.violencia {
+  background-color: var(--fundo);
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.violencia > h1 {
+  color: var(--roxo-primario);
+  font-size: 50px;
+}
+
+.hero-violencia {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+
+  padding-top: 90px;
+}
+
+.hero-violencia > img {
+  width: 45%;
+  border-radius: 20px;
+}
+
+.violencias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: left;
+  color: var(--texto);
+  font-size: 30px;
+  width: 30%;
+}
+
+.denuncias {
+  background-color: var(--fundo);
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.denuncias > h1 {
+  color: var(--roxo-primario);
+  font-size: 50px;
+}
+
+.canais-denuncias {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+
+  padding-top: 90px;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn small {
+  display: block;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn.ligue180 {
+  background: #5a189a;
+}
+.btn.ligue180:hover {
+  background: #b477e3;
+}
+
+.btn.alerta {
+  background: #c1121f;
+}
+.btn.alerta:hover {
+  background: #e63946;
+}
+
+.btn.delegacia {
+  background: #1d3557;
+}
+.btn.delegacia:hover {
+  background: #457b9d;
+}
+
+.btn.defensoria {
+  background: #2a9d8f;
+}
+.btn.defensoria:hover {
+  background: #52b69a;
+}
+
+.btn.ministerio {
+  background: #f77f00;
+}
+.btn.ministerio:hover {
+  background: #f4a261;
+}
+
+.btn.formulario {
+  background: #006400;
+}
+.btn.formulario:hover {
+  background: #2e8b57;
+}
+
+footer {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+  background-color: var(--roxo-primario);
+
+  font-size: 12px;
+}
+
+@media (max-width: 400px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .escuta-lilas {
+    width: 100px;
+    height: auto;
+  }
+
+  header > button {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 0;
+    gap: 10px;
+  }
+
+  header > button > img {
+    width: 15%;
+  }
+
+  .home {
+    margin-top: 100px;
+    background-image: none;
+    min-height: 0;
+  }
+
+  .home > h2 {
+    margin: 20px;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .agosto-lilas{
+    padding-bottom: 50px;
+    padding-top: 250px;
+  }
+
+  .agosto-lilas > h1,
+  .violencia > h1,
+  .denuncias > h1 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .hero {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+  .hero > img {
+    width: 90%;
+  }
+
+  .hero > p {
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .hero-violencia {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+  .hero-violencia > img {
+    width: 90%;
+  }
+
+  .hero-violencia{
+    align-items: center;
+  }
+
+  .violencia{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .violencias {
+    width: 100%;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .denuncias{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .canais-denuncias {
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  footer {
+    font-size: 10px;
+    padding: 20px;
+  }
+}
