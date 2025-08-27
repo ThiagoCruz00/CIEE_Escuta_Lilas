@@ -209,47 +209,53 @@ button:hover {
 }
 
 .btn.ligue180 {
-  background: #5a189a;
+  background: #6a1b9a;
 }
 .btn.ligue180:hover {
-  background: #b477e3;
+  background: #8e24aa;
+}
+
+.btn.whatsapp {
+  background: #2e7d32;
+}
+.btn.whatsapp:hover {
+  background: #388e3c;
 }
 
 .btn.alerta {
-  background: #c1121f;
+  background: #b71c1c;
 }
 .btn.alerta:hover {
-  background: #e63946;
+  background: #d32f2f;
 }
 
 .btn.delegacia {
-  background: #1d3557;
+  background: #283593;
 }
 .btn.delegacia:hover {
-  background: #457b9d;
+  background: #3949ab;
 }
 
 .btn.defensoria {
-  background: #2a9d8f;
+  background: #00695c;
 }
 .btn.defensoria:hover {
-  background: #52b69a;
+  background: #00897b;
 }
 
 .btn.ministerio {
-  background: #f77f00;
+  background: #ef6c00;
 }
 .btn.ministerio:hover {
-  background: #f4a261;
+  background: #f57c00;
 }
 
 .btn.formulario {
-  background: #006400;
+  background: #4e342e;
 }
 .btn.formulario:hover {
-  background: #2e8b57;
+  background: #6d4c41;
 }
-
 footer {
   display: flex;
   padding: 40px;
