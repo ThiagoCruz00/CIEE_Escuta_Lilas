@@ -352,7 +352,6 @@ footer {
     justify-content: unset;
   }
 
-  /* ===== CARROSSEL ===== */
   .tipos-violencia-carousel {
     display: flex;
     overflow-x: auto;
