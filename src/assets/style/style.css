@@ -343,33 +343,50 @@ footer {
   }
 
   .violencia {
-    display: none;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 
   .tipos-violencia {
     display: none;
+    justify-content: unset;
   }
 
   /* ===== CARROSSEL ===== */
   .tipos-violencia-carousel {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    overflow: hidden;
-    padding: 50px 20px;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
     background-color: var(--fundo);
+
+    padding-bottom: 100px;
+  }
+  .tipos-violencia-carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tipos-violencia-carousel {
+    scroll-snap-type: x mandatory;
+  }
+
+  .card-violencia {
+    scroll-snap-align: start;
   }
 
   .tipos-violencia-carousel .tipos-violencia {
     display: flex;
     flex-wrap: nowrap;
-    transition: transform 0.3s ease-in-out;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
 
   .tipos-violencia-carousel .card-violencia {
     flex: 0 0 250px;
-    margin: 0 10px;
+    max-width: 250px;
     text-align: center;
   }
 
