@@ -350,6 +350,8 @@ footer {
   .tipos-violencia {
     display: none;
     justify-content: unset;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
   .tipos-violencia-carousel {
