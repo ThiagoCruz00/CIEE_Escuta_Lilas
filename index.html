@@ -19,10 +19,10 @@
   <body>
     <header>
       <div class="escuta-lilas">
-        <img src="/src/assets/img/Escuta-Lilas.png" alt="" />
+        <img src="/src/assets/img/Escuta-Lilas.png" alt="Logo Escuta Lilas" />
       </div>
       <button id="botao-denuncia">
-        <img src="/src/assets/img/Denuncia.png" alt="" />
+        <img src="/src/assets/img/Denuncia.png" alt="Fazer Denúncia" />
         Faça a sua Denúncia
       </button>
     </header>
@@ -37,7 +37,7 @@
     <main class="agosto-lilas">
       <h1>Agosto Lilás: Entenda a Campanha</h1>
       <div class="hero">
-        <img src="/src/assets/img/maos-dadas.png" alt="" />
+        <img src="/src/assets/img/maos-dadas.png" alt="Mãos dadas em união" />
         <p>
           Agosto Lilás é uma campanha de conscientização sobre o fim da
           violência contra a mulher. O movimento surgiu para fortalecer a
@@ -98,20 +98,69 @@
       </div>
     </main>
 
+    <section
+      class="tipos-violencia-carousel"
+      aria-label="Carrossel de violência"
+    >
+      <button class="prev" aria-label="Anterior">&#10094;</button>
+      <div class="tipos-violencia">
+        <article class="card-violencia fisica">
+          <span>✊</span>
+          <h3>Física</h3>
+          <p>
+            Agressões que comprometem o corpo, como empurrões, socos ou
+            queimaduras.
+          </p>
+        </article>
+        <article class="card-violencia psicologica">
+          <span>🧠</span>
+          <h3>Psicológica</h3>
+          <p>
+            Ameaças, humilhações, isolamento, manipulação e chantagens
+            emocionais.
+          </p>
+        </article>
+        <article class="card-violencia sexual">
+          <span>🚫</span>
+          <h3>Sexual</h3>
+          <p>
+            Qualquer ato sexual sem consentimento, inclusive assédio ou coerção.
+          </p>
+        </article>
+        <article class="card-violencia moral">
+          <span>💬</span>
+          <h3>Moral</h3>
+          <p>
+            Calúnias, difamações, xingamentos e tentativas de desqualificar a
+            mulher.
+          </p>
+        </article>
+        <article class="card-violencia patrimonial">
+          <span>🏠</span>
+          <h3>Patrimonial</h3>
+          <p>
+            Controle, destruição ou retenção de bens, documentos e recursos
+            financeiros.
+          </p>
+        </article>
+      </div>
+      <button class="next" aria-label="Próximo">&#10095;</button>
+    </section>
+
     <main id="denuncias" class="denuncias">
       <h1>Canais Oficiais de Denúncia</h1>
 
       <div class="canais-denuncias">
-        <a href="#" target="_blank" class="btn ligue180">
-          📞 Ligue 180 <br />
+        <a href="tel:180" class="btn ligue180" aria-label="Ligar para 180">
+          <i class="fa-solid fa-phone"></i> Ligue 180 <br />
           <small
             >Central de Atendimento à Mulher (24h, anônimo e gratuito)</small
           >
         </a>
 
-        <a href="#" class="btn alerta">
-          🚨 Ligue 190 <br />
-          <small>Polícia Militar – em caso de emergência</small>
+        <a href="tel:190" class="btn alerta" aria-label="Ligar para 190">
+          <i class="fa-solid fa-triangle-exclamation"></i> Ligue 190 <br />
+          <small>Polícia Militar – emergência</small>
         </a>
 
         <a
@@ -165,4 +214,5 @@
     </footer>
   </body>
   <script src="/src/assets/javascript/acao-botao.js"></script>
+  <script src="/src/assets/javascript/carrousel.js"></script>
 </html>
